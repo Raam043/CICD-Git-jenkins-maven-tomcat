@@ -1,1 +1,3 @@
-# CID-Git-Jenkins-Tomcat
+# maven-project
+
+Simple Maven Project
