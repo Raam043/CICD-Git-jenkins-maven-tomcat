@@ -30,9 +30,9 @@
 </head>
 <body>
   <div align="center">
-    <h1>Ramesh N</h1>
+    <h1><strong>Ramesh Kumar</strong></h1>
     <h2>Welcome to Saikrishna's html World</h2>
-  <p>Call Mr. Ramesh Biradar for enquiries <a href="tel:9902163099">9902163099</a>.</p>
+  <p>Call Mr. Ramesh Biradar for enquiries <a href="tel:9902163099"style="color:#0AFFFF"><strong>9902163099</strong></a>.</p>
 	  
 	  
 	  
@@ -49,4 +49,3 @@
   </div>
 </body>
 </html>
-
