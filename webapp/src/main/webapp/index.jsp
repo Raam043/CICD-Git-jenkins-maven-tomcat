@@ -36,7 +36,7 @@
 	  
 	  
 	  
-    <img src="https://github.com/Raam043/Pipeline/blob/master/SaiKrishna.jpg?raw=true" alt="https://github.com/Raam043/Pipeline/blob/master/SaiKrishna.jpg?raw=true" style="width:300px;height:400px;" />
+   <a href="https://github.com/Raam043/Pipeline/blob/master/SaiKrishna.jpg?raw=true"> <img src="https://github.com/Raam043/Pipeline/blob/master/SaiKrishna.jpg?raw=true" alt="Sai Image" style="width:300px;height:400px;" /> </a>
 								
 <img src="https://github.com/Raam043/Pipeline/blob/master/Sai2.jpeg?raw=true" alt="https://github.com/Raam043/Pipeline/blob/master/Sai2.jpeg?raw=true" style="width:300px;height:400px;" />
 								
