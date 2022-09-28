@@ -36,9 +36,9 @@
 	  
 	  
 	  
-    <img src="https://github.com/Raam043/Pipeline/blob/master/SaiKrishna.jpg?raw=true" alt="Image" style="width:300px;height:400px;" />
+    <img src="https://github.com/Raam043/Pipeline/blob/master/SaiKrishna.jpg?raw=true" alt="https://github.com/Raam043/Pipeline/blob/master/SaiKrishna.jpg?raw=true" style="width:300px;height:400px;" />
 								
-<img src="https://github.com/Raam043/Pipeline/blob/master/Sai2.jpeg?raw=true" alt="Image" style="width:300px;height:400px;" />
+<img src="https://github.com/Raam043/Pipeline/blob/master/Sai2.jpeg?raw=true" alt="https://github.com/Raam043/Pipeline/blob/master/Sai2.jpeg?raw=true" style="width:300px;height:400px;" />
 								
 <img src="https://github.com/Raam043/Pipeline/blob/master/Sai3.jpeg?raw=true" alt="Image" style="width:300px;height:400px;" />
 							
