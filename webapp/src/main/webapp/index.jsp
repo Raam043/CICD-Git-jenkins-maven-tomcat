@@ -32,19 +32,19 @@
   <div align="center">
     <h1><strong>Ramesh Kumar</strong></h1>
     <h2>Welcome to Saikrishna's html World</h2>
-  <p>Call Mr. Ramesh Biradar for enquiries <a href="tel:9902163099"style="color:#0AFFFF"><strong>9902163099</strong></a>.</p>
+  <p>Call Mr. Ramesh N for enquiries <a href="tel:9902163099"style="color:#0AFFFF"><strong>9902163099</strong></a>.</p>
 	  
 	  
 	  
    <a href="https://github.com/Raam043/Pipeline/blob/master/SaiKrishna.jpg?raw=true"> <img src="https://github.com/Raam043/Pipeline/blob/master/SaiKrishna.jpg?raw=true" alt="Sai Image" style="width:300px;height:400px;" /> </a>
 								
-<img src="https://github.com/Raam043/Pipeline/blob/master/Sai2.jpeg?raw=true" alt="https://github.com/Raam043/Pipeline/blob/master/Sai2.jpeg?raw=true" style="width:300px;height:400px;" />
+<a href="https://github.com/Raam043/Pipeline/blob/master/Sai2.jpeg?raw=true"> <img src="https://github.com/Raam043/Pipeline/blob/master/Sai2.jpeg?raw=true" alt="Sai" style="width:300px;height:400px;" /> </a>
 								
-<img src="https://github.com/Raam043/Pipeline/blob/master/Sai3.jpeg?raw=true" alt="Image" style="width:300px;height:400px;" />
+<a href="https://github.com/Raam043/Pipeline/blob/master/Sai3.jpeg?raw=true"> <img src="https://github.com/Raam043/Pipeline/blob/master/Sai3.jpeg?raw=true" alt="Image" style="width:300px;height:400px;" /> </a>
 							
-<img src="https://github.com/Raam043/Pipeline/blob/master/Sai5.jpeg?raw=true" alt="Image" style="width:300px;height:400px;" />
+<a href="https://github.com/Raam043/Pipeline/blob/master/Sai5.jpeg?raw=true"> <img src="https://github.com/Raam043/Pipeline/blob/master/Sai5.jpeg?raw=true" alt="Image" style="width:300px;height:400px;" /> </a>
 								
-<img src="https://github.com/Raam043/Pipeline/blob/master/Sai6.jpeg?raw=true" alt="Image" style="width:300px;height:400px;" />
+<a href="https://github.com/Raam043/Pipeline/blob/master/Sai6.jpeg?raw=true"> <img src="https://github.com/Raam043/Pipeline/blob/master/Sai6.jpeg?raw=true" alt="Image" style="width:300px;height:400px;" /> </a>
 								
   </div>
 </body>
