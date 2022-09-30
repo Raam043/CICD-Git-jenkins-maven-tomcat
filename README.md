@@ -1,5 +1,3 @@
-#External tomcat server
-
 Release Jenkins Server
 and install jenkins 
 commands for jenkins installation on ec2
@@ -36,6 +34,16 @@ M2=$M2_HOME/bin
 PATH=$PATH:$JAVA_HOME:$M2_HOME:$M2:$HOME/bin
 ====================================================
 __________________________________________________________________________________________________
+Open jenkin> jenkins> manage jenkins> global tool configuration
+JDK = add JDK
+Name = java
+Path = /usr/lib/jvm/java-11-openjdk-11.0.16.0.8-1.amzn2.0.1.x86_64
+
+
+Maven = add maven
+Name = maven
+Path = /opt/maven/apache-maven-3.8.6
+________________________________________________________________________________________________
 
 
 Release Tomcat web server
@@ -102,5 +110,5 @@ Credentials = Tomcat webapp manager userID and Pass = "ramesh" + "ramesh123"
 Tomcat URL = http://3.14.29.211:8080
 
 Saven and Build now for sucessfull project
-				   	 ..... all the best
-						       #Ramesh_NB
+					 ..... all the best
+						 #Ramesh_NB
