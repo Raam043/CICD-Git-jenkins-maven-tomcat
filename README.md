@@ -85,7 +85,7 @@ ________________________________________________________________________________
 Create jenkins Pipeline using Maven project
 
 SCM > Git
-Git repo = https://github.com/Raam043/CICD-Git-Jenkins-Tomcat.git
+Git repo = https://github.com/Raam043/CICD-Git-jenkins-maven-tomcat.git
 Branch = main
 
 Build Triggers > Poll SCM
