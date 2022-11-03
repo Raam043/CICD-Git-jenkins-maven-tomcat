@@ -1,3 +1,4 @@
 [rnb]
 172.31.41.221 ansible_user=ec2-user
 172.31.41.177 ansible_user=ec2-user
+172.31.47.183 ansible_user=ec2-user
