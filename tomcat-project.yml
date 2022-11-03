@@ -4,11 +4,11 @@
   tasks:
   
     - name: Run docker container
-      command: "docker stop Tomcat & docker rm -f Tomcat & docker image rm -f Tomcat"
+      command: "docker stop tomcat & docker rm -f tomcat & docker image rm -f tomcat"
     
     - name: Run docker container
       docker_container:
-        name: Tomcat
+        name: tomcat
         image: raam043/tomcat-project
         state: started
         exposed_ports:
