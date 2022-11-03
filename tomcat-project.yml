@@ -6,7 +6,7 @@
     - name: Stop and remove old container
       command: "docker stop tomcat"
       command: "docker rm -f tomcat"
-      command: "docker image rm -f tomcat"
+      command: "docker image rm -f raam043/tomcat-project"
     
     - name: Run docker container
       docker_container:
