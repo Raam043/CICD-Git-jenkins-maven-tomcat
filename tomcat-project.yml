@@ -4,7 +4,7 @@
   tasks:
   
     - name: Run docker container
-      command: "docker stop tomcat & docker rm -f tomcat & docker image rm -f tomcat"
+      command: "docker stop tomcat & docker rm -f tomcat & docker image rm -f tomcat & docker images"
     
     - name: Run docker container
       docker_container:
