@@ -10,7 +10,7 @@
       command: "git clone https://github.com/Raam043/CICD-Git-jenkins-maven-tomcat.git"
       
     - name: Entering into folder
-      command: "cd CICD-Git-jenkins-maven-tomcat"
+      command: "cd /root/CICD-Git-jenkins-maven-tomcat"
       
     - name: Applying Manifest file  
       command: "kubectl apply -f deployment.yml"
