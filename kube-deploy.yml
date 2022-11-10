@@ -1,0 +1,8 @@
+---
+- hosts: rnb
+  become: True
+  tasks:
+  
+    - name: Run commands over kops master  
+      command: "cd /opt & rm -rf CICD-Git-jenkins-maven-tomcat & git clone https://github.com/Raam043/CICD-Git-jenkins-maven-tomcat.git"
+    
