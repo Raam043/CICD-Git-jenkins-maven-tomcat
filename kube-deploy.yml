@@ -2,17 +2,15 @@
 - hosts: rnb
   become: True
   tasks:
-  
-    - name: Delete old folder
-      command: "rm -rf /opt/*
+
+    - name: Removing old folder
+      command: "rm -rf CICD-Git-jenkins-maven-tomcat"
       
     - name: Git clone
-      command: "git clone https://github.com/Raam043/CICD-Git-jenkins-maven-tomcat.git /opt/"
-            
-    - name: Applying Manifest file  
-      command: "kubectl apply -f /opt/deployment.yml"
+      command: "git clone https://github.com/Raam043/CICD-Git-jenkins-maven-tomcat.git"
       
-    - name: Restarting service
+    - name: Deploying manifest files
+      command: "kubectl apply -f CICD-Git-jenkins-maven-tomcat/deployment.yml"
+      
+    - name: Restarting the service
       command: "kubectl rollout restart deployment"
-
-    
