@@ -3,11 +3,19 @@
   become: True
   tasks:
   
-    - name: Run commands over kops master
+    - name: Delete old folder
       command: "rm -rf CICD-Git-jenkins-maven-tomcat"
+      
+    - name: Git clone
       command: "git clone https://github.com/Raam043/CICD-Git-jenkins-maven-tomcat.git"
+      
+    - name: Entering into folder
       command: "cd CICD-Git-jenkins-maven-tomcat"
+      
+    - name: Applying Manifest file  
       command: "kubectl apply -f deployment.yml"
+      
+    - name: Restarting service
       command: "kubectl rollout restart deployment"
 
     
