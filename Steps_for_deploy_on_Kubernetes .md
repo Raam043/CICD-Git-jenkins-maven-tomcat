@@ -71,4 +71,38 @@ docker image rm -f raam043/tomcat-project & ls
 ## 2 - Create `Freestyle Project` for `CD`
 
 
-1. 
+1. Build Steps = Send files or execute commands over SSH
+Connect with Ansible using (user = root  passwd = ramesh123 > ssh connection )
+
+![image](https://user-images.githubusercontent.com/111989928/201089027-012dcf95-313d-49e0-b1c1-d8c445fe5d10.png)
+
+
+![image](https://user-images.githubusercontent.com/111989928/201089090-a764d95e-5e71-462f-a626-ccabd424fb00.png)
+
+```sh
+rm -rf /opt/kube-test
+mkdir /opt/kube-test
+cd /opt
+rm -rf CICD-Git-jenkins-maven-tomcat
+git clone https://github.com/Raam043/CICD-Git-jenkins-maven-tomcat.git
+cp CICD-Git-jenkins-maven-tomcat/* /opt/kube-test
+cd /opt/kube-test
+ansible-playbook -i hosts kube-deploy.yml
+```
+
+
+
+Save and Run the Job
+
+
+
+`OUTPUT`
+
+![image](https://user-images.githubusercontent.com/111989928/201089331-e68d2c16-e01d-4ea1-829a-2469ed54b3e9.png)
+
+![image](https://user-images.githubusercontent.com/111989928/201089596-990d3c99-9b05-4c93-ad3a-24ef551ec238.png)
+
+
+
+
+
