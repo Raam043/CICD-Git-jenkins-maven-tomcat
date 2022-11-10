@@ -4,7 +4,7 @@
   tasks:
   
     - name: Delete old folder
-      command: "rm -rf /root/git/*"
+      command: "rm -rf /root/git"
       
     - name: Crteate work Directory
       command: "mkdir /root/git"
