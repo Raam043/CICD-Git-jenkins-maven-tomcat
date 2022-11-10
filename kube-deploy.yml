@@ -4,10 +4,10 @@
   tasks:
   
     - name: Run commands over kops master
-      command: "cd /opt"
-      command: "rm -rf CICD-Git-jenkins-maven-tomcat"
+      command: "rm -rf CICD-Git-jenkins-maven-tomcat & git clone https://github.com/Raam043/CICD-Git-jenkins-maven-tomcat.git"
       command: "git clone https://github.com/Raam043/CICD-Git-jenkins-maven-tomcat.git"
       command: "cd CICD-Git-jenkins-maven-tomcat"
       command: "kubectl apply -f deployment.yml"
       command: "kubectl rollout restart deployment"
+
     
