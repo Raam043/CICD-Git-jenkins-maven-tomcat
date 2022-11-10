@@ -4,13 +4,13 @@
   tasks:
   
     - name: Delete old folder
-      command: "rm -rf CICD-Git-jenkins-maven-tomcat"
+      command: "rm -rf /root/git/*"
       
     - name: Git clone
-      command: "git clone https://github.com/Raam043/CICD-Git-jenkins-maven-tomcat.git"
+      command: "git clone https://github.com/Raam043/CICD-Git-jenkins-maven-tomcat.git /root/git"
       
     - name: Entering into folder
-      command: "cd /root/CICD-Git-jenkins-maven-tomcat"
+      command: "cd /root/git/"
       
     - name: Applying Manifest file  
       command: "kubectl apply -f deployment.yml"
