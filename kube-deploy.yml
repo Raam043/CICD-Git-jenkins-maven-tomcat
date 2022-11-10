@@ -3,8 +3,9 @@
   become: True
   tasks:
   
-    - name: Run commands over kops master  
-      command: "cd /opt"
+    - name: Run commands over kops master
       command: "rm -rf CICD-Git-jenkins-maven-tomcat"
       command: "git clone https://github.com/Raam043/CICD-Git-jenkins-maven-tomcat.git"
+      command: "kubectl apply -f deployment.yml"
+      command: "kubectl rollout restart deployment"
     
