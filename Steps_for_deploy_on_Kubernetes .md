@@ -21,6 +21,8 @@ Prerequisitions :-
 
 1. Git Repository used 👉 https://github.com/Raam043/CICD-Git-jenkins-maven-tomcat.git
 
+`Please refer the Repo for deployment files`
+
 ![image](https://user-images.githubusercontent.com/111989928/201087360-d0b575e1-2696-45d7-8875-0366807711d4.png)
 
 
