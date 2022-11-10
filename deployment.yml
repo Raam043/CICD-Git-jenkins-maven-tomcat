@@ -18,7 +18,7 @@ spec:
   template:
     metadata:
       labels:
-        app: eks-test
+        app: tomcat-project
     spec:
       containers:
       - image: raam043/tomcat-project
