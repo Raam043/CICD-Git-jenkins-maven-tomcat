@@ -6,7 +6,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Ramesh Biradar</title>
+  <title>Ramesh</title>
   <style>
     body {
       color: #ffffff;
